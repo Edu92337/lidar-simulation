@@ -20,7 +20,7 @@ class LIDAR():
         self.distancias_lidas.clear()
         x0 = int(self.posicao[0])  
         y0 = int(self.posicao[1])  
-        pygame.draw.circle(screen, 'yellow', (x0, y0), CELL_SIZE // 2)
+        pygame.draw.circle(screen, 'red', (x0, y0), CELL_SIZE // 2)
 
         delta = 120 / 9
         angulo_inicial = self.direcao - 60  
